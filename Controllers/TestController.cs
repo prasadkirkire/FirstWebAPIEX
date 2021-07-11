@@ -28,7 +28,7 @@ namespace FirstWebAPIEX.Controllers
         [HttpPut]
         public string PutString()
         {
-            return "Put string called";
+            return "Put string is called";
         }
 
         //this is demo comment
