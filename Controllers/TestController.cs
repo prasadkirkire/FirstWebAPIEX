@@ -16,16 +16,22 @@ namespace FirstWebAPIEX.Controllers
         {
             return "get string called";
         }
+
+
         [HttpPost]
         public string  PostString()
         {
             return "post string called";
         }
+
+
         [HttpPut]
         public string PutString()
         {
             return "Put string called";
         }
+
+
         [HttpDelete]
         public string DeleteString()
         {
