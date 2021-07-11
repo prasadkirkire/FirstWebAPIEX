@@ -35,7 +35,7 @@ namespace FirstWebAPIEX.Controllers
         [HttpDelete]
         public string DeleteString()
         {
-            return "Delete string called";
+            return "Delete string is called";
         }
     }
 }
